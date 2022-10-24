@@ -12,7 +12,7 @@ public class ComplejoTest {
         System.out.print("Complejo Vacio: \t");
         complejoVacio.imprimir();
 
-        complejoVacio.asignar(1.8, 9.4);
+        complejoVacio.asignar(1.8, 9.5);
         System.out.println("COMPLEJOS DESPUES DE SUMAR");
         complejoSumado.sumar(complejoLleno, complejoVacio);
         System.out.print("Complejo Lleno: \t");
